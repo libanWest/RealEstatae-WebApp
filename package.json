@@ -1,9 +1,12 @@
 {
+  "homepage": "https://yourusername.github.io/RealEstate-WebApp",
   "name": "angular.io-example",
   "version": "0.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -32,6 +35,7 @@
     "@types/jasmine": "~4.3.0",
     "@types/node": "^16.11.35",
     "copyfiles": "^2.4.1",
+    "gh-pages": "^6.3.0",
     "jasmine-core": "~4.5.0",
     "jasmine-marbles": "~0.9.2",
     "jasmine-spec-reporter": "~7.0.0",
