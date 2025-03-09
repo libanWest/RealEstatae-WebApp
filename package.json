@@ -5,8 +5,8 @@
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist/homes-app",
+     "predeploy": "ng build",
+  "deploy": "gh-pages -d dist",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
