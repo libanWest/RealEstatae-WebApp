@@ -61,7 +61,6 @@ export class DetailsComponent {
         this.housingLocation = data; 
       });
     }
-
     submitApplication(){
       this.housingService.submitApplication(
         this.applyForm.value.firstName ?? "", // '??'if value is on the left hand side is null or undefined then the value on the right hand side is used
@@ -69,4 +68,5 @@ export class DetailsComponent {
         this.applyForm.value.email ?? ""
       );
     }
+
 }
