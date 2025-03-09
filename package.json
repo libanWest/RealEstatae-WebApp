@@ -1,12 +1,12 @@
 {
-  "homepage": "https://yourusername.github.io/RealEstate-WebApp",
+  "homepage": "https://libanWest.github.io/RealEstate-WebApp",
   "name": "angular.io-example",
   "version": "0.0.0",
   "description": "Example project from an angular.io guide.",
   "license": "MIT",
   "scripts": {
      "predeploy": "ng build",
-  "deploy": "gh-pages -d dist",
+  "deploy": "gh-pages -d dist --repo https://github.com/libanWest/RealEstatae-WebApp.git",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
