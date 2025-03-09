@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular Homes App
 - Install Angular if you don't have it installed
 
@@ -18,3 +19,7 @@
 - Run the application 
 
   `ng serve`
+=======
+# RealEstatae-WebApp
+A basic Real estate site that shows available listing and lets users register interest
+>>>>>>> 977519822fb1990a9d9a1db7c037d987cd268a03
