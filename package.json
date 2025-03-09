@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
      "predeploy": "ng build",
-  "deploy": "gh-pages -d dist --repo https://github.com/libanWest/RealEstatae-WebApp.git",
+  "deploy": "gh-pages -d dist --repo https://github.com/libanWest/RealEstate-WebApp.git",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
