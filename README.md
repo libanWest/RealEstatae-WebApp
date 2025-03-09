@@ -1,5 +1,5 @@
 # RealEstatae-WebApp
-A basic Real estate site that shows available listing and lets users register interest.
+A basic Real estate site built with Angular that shows available listings and lets users register interest.
 
 - Run the application 
 
